@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please provide your feedback on our performance.</p>
+  <br>
+  <div class="survey-content">
+    <form id="survey-form">
+      <div id = "survey-section">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <br>
+      <br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      <br>
+      <br>
+      <label id="number-label">Number</label>
+      <input id="number" type="number" min="0" max="100" placeholder="Age">
+    </div>
+      <br>
+      <p>How satisfied are you with our services?</p>
+      <select id="dropdown">
+        <option>Very Satisfied</option>
+        <option>Satisfied</option>
+        <option>Neutral</option>
+        <option>Dissatisfied</option>
+        <option>Very Dissatisfied</option>
+      </select>
+      <br>
+      <br>
+      <p>How often do you use our services?</p>
+      <label><input name="user-frequency" value="every-day" type="radio" checked>Every Day</label>
+      <br>
+      <br>
+      <label><input name="user-frequency" value="weekly" type="radio">Weekly</label>
+      <br>
+      <br>
+      <label><input name="user-frequency" value="monthly" type="radio">Monthly</label>
+      <br>
+      <br>
+      <p>What type of features would you like us to add?</p>
+      <label><input name="features" type="checkbox" value="more-colors">More colors</label>
+      <br>
+      <br>
+      <label><input name="features" type="checkbox" value="more-fonts">More fonts</label>
+      <br>
+      <br>
+      <label><input name="features" type="checkbox" value="more-templates">More templates</label>
+      <br>
+      <br>
+      <label><input name="features" type="checkbox" value="more-images">More images</label>
+      <br>
+      <br>
+      <label><input name="features" type="checkbox" value="more-backgrounds">More backgrounds</label>
+      <br>
+      <br>
+      <p>Do you have any aditional feedback for us?</p>
+      <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+      <br>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
+    Hello Camper!
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+    - The freeCodeCamp Team
+    -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>

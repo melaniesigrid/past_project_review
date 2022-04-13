@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body{
+    background: rgb(0,4,40);
+    background: radial-gradient(circle, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 65%);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: wheat;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.65rem;
+}
+
+#description {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: wheat;
+}
+
+.survey-content {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: wheat;
+}
